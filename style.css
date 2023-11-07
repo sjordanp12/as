@@ -1,0 +1,66 @@
+body {
+  background-color: #d3d3d3;
+}
+
+ul li {
+  margin-right: 20px;
+}
+section {
+  margin-top: 100px;
+}
+
+.btn {
+  margin-bottom: 20px;
+}
+
+.sponsor {
+  padding: 30px;
+  background-color: white;
+  box-shadow: 2px 3px 4px 5px rgb(161, 158, 158);
+}
+.gambar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.row {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+/* .asset {
+  padding: 150px;
+  background-image: linear-gradient(#e0f4ff, #afd6d0, #86beec);
+  border-bottom: 3px solid rgb(179, 177, 177);
+} */
+
+h1 {
+  /* margin-left: 50px; */
+}
+
+.isi {
+  text-align: justify;
+}
+.team {
+  padding: 150px;
+  background-color: white;
+}
+
+footer {
+  padding: 150px;
+  margin-top: 50px;
+  background-color: rgb(40, 8, 116);
+}
+/* Responsive */
+@media (min-width: 660px) {
+  .asset {
+    padding: 90px;
+    background-image: linear-gradient(#e0f4ff, #afd6d0, #86beec);
+    border-bottom: 3px solid rgb(179, 177, 177);
+  }
+
+  .asset h2 {
+    margin-top: 20px;
+  }
+}
